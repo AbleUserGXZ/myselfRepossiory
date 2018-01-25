@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap .header {
+  width: 100%;
+  height: 7.5rem;
+  background: #393a3f;
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap .header span {
+  display: inline-block;
+}
+.wrap .header span:nth-child(1) {
+  width: 10%;
+  text-align: center;
+}
+.wrap .header span:nth-child(3) {
+  width: 15%;
+  text-align: center;
+  font-size: 3rem;
+}
+.wrap .section {
+  width: 100%;
+  flex: 1;
+  background: #818d9b;
+  font-size: 3rem;
+}
+.wrap .section .mark {
+  width: 60%;
+  height: 800px;
+  background: #fff;
+  border-radius: 20px;
+  margin-left: 20%;
+  margin-top: 10rem;
+}
+.wrap .section .mark span {
+  display: inline-block;
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.wrap .section .mark span img {
+  width: 80%;
+  height: 80px;
+  margin-left: 10%;
+}
+.wrap .section .mark span p {
+  text-align: center;
+}
+.wrap .section .mark ul {
+  width: 80%;
+  height: 300px;
+  margin-left: 10%;
+}
+.wrap .section .mark ul li {
+  width: 100%;
+  height: 8rem;
+  border-bottom: 1px solid #333;
+}
+.wrap .section .mark ul li input {
+  width: 80%;
+  height: 50%;
+  border: none;
+}
+.wrap .section .mark ul li input::-webkit-input-placeholder {
+  font-size: 2rem;
+}
+.wrap .section .mark ul li img {
+  width: 40px;
+  height: 70px;
+  position: relative;
+  top: 25px;
+}
+.wrap .section .mark b {
+  display: inline-block;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background: #2cbc77;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: 10%;
+}
